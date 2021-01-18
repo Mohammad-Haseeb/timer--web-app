@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import  TimeDescription from './Component/TimeDescription';
+import TimerFuntions from './Component/TimeFunction';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <div className="timeClock">
             <div className="innerTime">
                 <TimeDescription/>
+                <TimerFuntions/>
             </div>
       </div>
     </div>
