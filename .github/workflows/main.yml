@@ -45,4 +45,4 @@ jobs:
       
  # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build MyTimerCountDownsurge.sh --token ${{ secrets.SECRET_TOKEN_Timer}}
+      run: surge ./build MyTimerCountDown.surge.sh --token ${{ secrets.SECRET_TOKEN_Timer}}
