@@ -1,0 +1,19 @@
+.timer-container {
+	background-color: var(--timer-background-color);
+	border: var(--timer-border);
+	height: var(--timer-height);
+	width: var(--timer-width);
+}
+
+.timer-button-container {
+	margin: 100px 20px;
+	display: grid;
+	place-items: center;
+}
+
+.time-display{
+	font-size: 3rem;
+	text-align: center;
+	color: #150485;
+	border-bottom: 1px solid #150485;
+}

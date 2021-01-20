@@ -1,0 +1,14 @@
+.button-container {
+    text-align: center;
+    margin: 5px 20px;
+    border: var(--button-border);
+    font-size: var(--button-text-size);
+    background-color: #03c4a1;
+    color: white;
+    width: 100%;
+  }
+  
+  .button-container:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
