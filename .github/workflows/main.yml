@@ -36,7 +36,10 @@ jobs:
   # Build React App with Yarn
     - name: Build React App
       run: yarn build
-    
+     
+  # Testin
+    - name: Testing React App
+      run: npm test   
       
       
   # Install Surge
